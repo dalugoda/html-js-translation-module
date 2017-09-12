@@ -1,0 +1,12 @@
+{
+    "en" : 
+    {
+        "app_title" : "My Test JSON EN",
+        "hello_world" : "Hello World EN"
+    },
+    "si" :
+    {
+        "app_title" : "My Test JSON SI",
+        "hello_world" : "Hello World SI"
+    }
+}
