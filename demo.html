@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>My Test JSON</title>
+    <script src="js/translate.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function test()
+        {
+            var a = getTranslation('hello_world');
+            alert(a);
+        }
+
+       
+    </script>
+</head>
+<body>
+    This is a test translation : <span id="trl_app_title"></span><br/>
+    This is a test translation : <span id="trl_hello_world"></span><br/>
+    <button onclick="test()">Test</button>
+    <br/>
+    <br/>
+    <br/>
+    <button onclick="switchLanguage('si')">Sinhala</button>
+    <button onclick="switchLanguage('en')">English</button>
+</body>
+</html>
